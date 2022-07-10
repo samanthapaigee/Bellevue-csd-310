@@ -1,0 +1,50 @@
+INSERT INTO store(store_id, locale)
+    VALUES('1', '4 Privet Dr, Little Whinging, Surrey');
+
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('1', 'Standard Books of Spells', 'The big book of any spell any witch or wizard will ever need!','Miranda Goshawk');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('2', 'The Dark Forces: A Guide to Self-Protection','Learn how to take down He-Who-Must-Not-Be-Named on your own, since The Boy Who Lived can not figure out how out how to break a horcrux on his own!','Quentin Trimble');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('3', 'Break with a Banshee', 'The corageous feat of banishing the Bandon Banshee! What? No. The witch with the hairy chin did not do this, and I did not erase her memory.','Gilderoy Lockhart');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('4', 'One Thousand Magical Herbs and Fungi','It really is one thousand. Count them yourself.','Phyllida Spore');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('5', 'A History of Magic','I can write about this, because I was alive when magic was created.','Bathilda Bagshot');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('6', 'Advanced Potion Making','Potter, quit stealing Boomslang Skin from the office of Professor Snape. Or do break in, not like we can stop you.','Libatius Borage');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('7', 'A Beginners Guide to Transfiguration','Learn how to turn Malfoy into the snake that he is.','Emeric Switch');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('8', 'Fantastic Beasts and Where to Find Them','New York is considerably more interesting than I expected','Newt Scamander');
+
+INSERT INTO book(book_id, book_name, details, author)
+    VALUES('9', 'The Wonder of Wigtown Wanderers, He Flew Like a Madman','I divide my time between my home in Nottinghamshire and where the Wigtown Wanderers are playing this week.','Kennilworthy Whisp');
+
+
+INSERT INTO user(user_id, first_name, last_name)
+    VALUES('1', 'Harry','Potter');
+
+INSERT INTO user(user_id, first_name, last_name)
+    VALUES('2', 'Ronald','Weasely');
+
+INSERT INTO user(user_id, first_name, last_name)
+    VALUES('3', 'Hermione','Granger');
+
+
+INSERT INTO wishlist(wishlist_id, user_id, book_id)
+    VALUES('1', '1','2');
+
+INSERT INTO wishlist(wishlist_id, user_id, book_id)
+    VALUES('2', '2','9');
+
+INSERT INTO wishlist(wishlist_id, user_id, book_id)
+    VALUES('3', '3','5');  
