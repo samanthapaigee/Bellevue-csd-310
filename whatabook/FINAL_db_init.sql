@@ -122,13 +122,3 @@ INSERT INTO user(user_id, first_name, last_name)
     VALUES('5', 'Luna','Lovegood');
 
 -- don't insert wishlist values, make this an ability in the program :)
-
--- insert wishlist values
-INSERT INTO wishlist(wishlist_id, user_id, book_id)
-    VALUES('1', '1','2');
-
-INSERT INTO wishlist(wishlist_id, user_id, book_id)
-    VALUES('2', '2','9');
-
-INSERT INTO wishlist(wishlist_id, user_id, book_id)
-    VALUES('3', '3','5');  
