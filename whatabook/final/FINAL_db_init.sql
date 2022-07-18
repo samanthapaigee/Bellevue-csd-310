@@ -21,7 +21,7 @@ DROP TABLE IF EXISTS user;
 DROP TABLE IF EXISTS book;
 DROP TABLE IF EXISTS wishlist;
 DROP TABLE IF EXISTS store;
-GRANT ALL PRIVILEGES ON whatabook.* TO'whatabook_user'@'localhost';
+GRANT ALL PRIVILEGES ON whatabook_test.* TO'whatabook_user'@'localhost';
 
 -- create user table
 CREATE TABLE user (
@@ -96,15 +96,6 @@ INSERT INTO book(book_id, book_name, details, author)
 INSERT INTO book(book_id, book_name, details, author)
     VALUES('9', 'The Wonder of Wigtown Wanderers, He Flew Like a Madman','I divide my time between my home in Nottinghamshire and where the Wigtown Wanderers are playing this week.','Kennilworthy Whisp');
 
-INSERT INTO book(book_id, book_name, details, author)
-    VALUES('10', 'Unfogging the Future','Because you probably should ... just not ... trust Trelawney','Cassandra Vablatsky');
-
-INSERT INTO book(book_id, book_name, details, author)
-    VALUES('11', 'The Philosophy of the Mundane: Why the Muggles Prefer Not to Know','The life story of the Dursley family','Professor Mordicus Egg');
-
-INSERT INTO book(book_id, book_name, details, author)
-    VALUES('12', 'Magical Drafts and Potions','Yup, Potter is still breaking into offices to steal potion ingredients.','Arsenic Jigger');
-
 -- insert user records
 INSERT INTO user(user_id, first_name, last_name)
     VALUES('1', 'Harry','Potter');
@@ -114,11 +105,5 @@ INSERT INTO user(user_id, first_name, last_name)
 
 INSERT INTO user(user_id, first_name, last_name)
     VALUES('3', 'Hermione','Granger');
-
-INSERT INTO user(user_id, first_name, last_name)
-    VALUES('4', 'Neville','Longbottom');
-
-INSERT INTO user(user_id, first_name, last_name)
-    VALUES('5', 'Luna','Lovegood');
 
 -- don't insert wishlist values, make this an ability in the program :)
